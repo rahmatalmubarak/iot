@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  h1 {
+	color: whitesmoke;
+}
+h3 {
+	color: black;
+    font-size: 50px;
+}
+  
+  .top-wrapper {
+    padding: 140px 0 100px 0;
+    background-image: url(image/bg.jpg);
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+   
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    /* Ubah position ke fixed, dan top ke 0 */
+    position:fixed;
+    top:0;
+    
+    /* Ubah z-index ke 10 */
+    z-index:10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+   .hasil{
+       text-align: center;
+       padding-top:10% ;
+       width: 50px;
+  }
+  
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
+  
+  .lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #dce2e4;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    color: #720ba5;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+    
+  footer {
+    background:#55acee;
+}
+
+.ul1 {
+    display:grid;
+    list-style-type:none;
+    margin:0;padding:0;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    
+}
+.li1 {
+    padding: 2em;
+    color:black;
+}
+.span1 {
+    display:block;
+ 
+    margin-bottom:1em;
+    font-size: 50px;
+    color: black;
+}
+
+ul {
+    display:grid;
+    list-style-type:none;
+    margin:0;padding:0;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
+ul li {
+    padding: 2em;
+    color:black;
+}
+ul li span {
+    display:block;
+    font-size:1.4em;
+    margin-bottom:1em;
+    color: black;
+}
+.ul2 {
+    display:grid;
+    list-style-type:none;
+  
+    margin-left: auto;
+    margin-right: auto;
+	
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    
+}
+.li2 {
+    padding: 2em;
+    color:black;
+}
+
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
